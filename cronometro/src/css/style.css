@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  background: linear-gradient(100deg, #D37676 0%, #EBC49F 100%);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.timer-container {
+  margin: 30px;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  border-radius: 20px;
+}
+.timer-container .timer-display {
+  background-color: #F7B2AD;
+  border-radius: 10px;
+  width: 250px;
+  height: 75px;
+  font-size: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 10px 10px 10px;
+}
+.timer-container .timer-controls button {
+  border: none;
+  border-radius: 10px;
+  background-color: #F7B2AD;
+  width: 110px;
+  height: 40px;
+  margin: 10px;
+}
+.timer-container .timer-laps {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+}
+.timer-container .timer-laps h3 {
+  margin: 0;
+}
+.timer-container .timer-laps ul {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.timer-container .timer-laps li {
+  border-radius: 10px;
+  background-color: #F7B2AD;
+  list-style: none;
+  margin: 5px;
+  height: 20px;
+  padding: 5px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
